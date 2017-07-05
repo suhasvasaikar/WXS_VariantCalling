@@ -131,20 +131,20 @@ OR
 
 SomaticSniper
 Somatic-sniper v1.0.5.0
-1 bam-somaticsniper \
-2 -q 0 \
-3 -Q 15 \
-4 -s 0.01 \
-5 -T 0.85 \
-6 -N 2 \
-7 -r 0.001 \
-8 -n NORMAL \
-9 -t TUMOR \
-10 -F vcf \
-11 -f ref.fa \
-12 <tumor.bam> \
-13 <normal.bam> \
-14 <somaticsniper_variants.vcf>
+bam-somaticsniper \
+-q 0 \
+-Q 15 \
+-s 0.01 \
+-T 0.85 \
+-N 2 \
+-r 0.001 \
+-n NORMAL \
+-t TUMOR \
+-F vcf \
+-f ref.fa \
+<tumor.bam> \
+<normal.bam> \
+<somaticsniper_variants.vcf>
 
 VarScan
 Mpileup; Samtools 1.1
@@ -191,3 +191,9 @@ Variants in the VCF files are also matched to known variants from external mutat
 • Ensembl regbuild v.13.0
 • HGMD public v.20154
 • ClinVar v.201601
+
+#Reference
+https://confluence.broadinstitute.org/display/GDAC/Documentation
+https://www.nature.com/articles/srep14283
+https://software.broadinstitute.org/gatk/
+http://varscan.sourceforge.net/
