@@ -181,19 +181,19 @@ java -jar VarScan.jar processSomatic \
 --p-value 0.07
 
 Variant Effect Predictor (VEP) v84
-Variants in the VCF files are also matched to known variants from external mutation databases. The following databases are used for VCF annotation:
-• GENCODE v.22
-• sift v.5.2.2
-• ESP v.20141103
-• polyphen v.2.2.2
-• dbSNP v.146
-• Ensembl genebuild v.2014-07
-• Ensembl regbuild v.13.0
-• HGMD public v.20154
-• ClinVar v.201601
+Variants in the VCF files are also matched to known variants from external mutation databases. The following databases are used for VCF annotation: \
+• GENCODE v.22 \
+• sift v.5.2.2 \
+• ESP v.20141103 \
+• polyphen v.2.2.2 \
+• dbSNP v.146 \
+• Ensembl genebuild v.2014-07 \
+• Ensembl regbuild v.13.0 \
+• HGMD public v.20154 \
+• ClinVar v.201601 \
 
-#Reference
-https://confluence.broadinstitute.org/display/GDAC/Documentation
-https://www.nature.com/articles/srep14283
-https://software.broadinstitute.org/gatk/
-http://varscan.sourceforge.net/
+#Reference \
+https://confluence.broadinstitute.org/display/GDAC/Documentation \
+https://www.nature.com/articles/srep14283 \
+https://software.broadinstitute.org/gatk/ \
+http://varscan.sourceforge.net/ \
